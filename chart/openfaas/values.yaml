@@ -19,12 +19,12 @@ queueWorker:
 
 # images
 images:
-  controller: functions/faas-netesd:0.4.8
-  gateway: functions/gateway:0.7.8
-  prometheus: prom/prometheus:v2.2.0
-  alertmanager: prom/alertmanager:v0.15.0-rc.0
-  nats: nats-streaming:0.6.0
-  queueWorker: functions/queue-worker:0.4.3
+  controller: registry.cn-shenzhen.aliyuncs.com/oucb/faas-netesd:0.4.8
+  gateway: registry.cn-shenzhen.aliyuncs.com/oucb/gateway:0.7.8
+  prometheus: registry.cn-shenzhen.aliyuncs.com/oucb/faas-prometheus:v2.2.0
+  alertmanager: registry.cn-shenzhen.aliyuncs.com/oucb/fass-alertmanager:v0.15.0-rc.0
+  nats: registry.cn-shenzhen.aliyuncs.com/oucb/nats-streaming:0.6.0
+  queueWorker: registry.cn-shenzhen.aliyuncs.com/oucb/queue-worker:0.4.3
 
 # ingress configuration
 ingress:
